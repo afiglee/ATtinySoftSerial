@@ -76,12 +76,12 @@ typedef uint8_t byte;
 // public methods
 //
 void softSerialBegin(long speed);
-void softSerialEnd();
-bool softSerialOverflow();
-int softSerialPeek();
+void softSerialEnd(void);
+bool softSerialOverflow(void);
+int softSerialPeek(void);
 size_t softSerialWrite(uint8_t byte);
-int softSerialRead();
-int softSerialAvailable();
-void softSerialFlush();
+int softSerialRead(void);
+int softSerialAvailable(void);
+void softSerialFlush(void);
 
 #endif

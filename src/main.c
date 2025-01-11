@@ -14,7 +14,7 @@ volatile char *inbuf[32];
 // outgoing buffer
 volatile char *outbuf[32];
 
-int main()
+int main(void)
 {
 	softSerialBegin(38400);
 	while (1) {
